@@ -24,7 +24,9 @@ The models are trained and evaluated on two open-source datasets:
   - [Google Drive Link 2](https://drive.google.com/drive/folders/1w8imCXWYn2LxajmGeGH_g5DaL2rabHev)
 - A-OKVQA: Accessible at [AllenAI Project Page](https://allenai.org/project/a-okvqa/home).
 
-The processed vision features for ScienceQA are available at https://huggingface.co/cooelf/vision_features/tree/main.
+The processed vision features for ScienceQA are available at [huggingfcae vision features](https://huggingface.co/cooelf/vision_features/tree/main). `all-MiniLM-L6-v2` and `unifiedqa-t5-base` can be downloaded at [huggingface sentence-transformers](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) and [huggingface unifiedqa-t5-base](https://huggingface.co/allenai/unifiedqa-t5-base).
+
+The pretrained base models on ScienceQA is available at [mc-cot/release/pretrained-base-model-on-scienceqa](https://github.com/chengtan9907/mc-cot/releases/download/scienceqa/results.zip).
 
 The folder with all related files looks like:
 
@@ -38,6 +40,7 @@ mc-cot
 │   │   ├── rationale
 │   │   │   ├── ...
 ├── models
+│   ├── all-MiniLM-L6-v2
 │   ├── unifiedqa-t5-base
 ├── data
 │   ├── vision_features
