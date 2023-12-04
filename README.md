@@ -59,5 +59,10 @@ We highly thank "Multimodal Chain-of-Thought Reasoning in Language Models". [pap
 
 ## Reference
 ```
-TBD
+@article{tan2023boosting,
+  title={Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-Consistency Training},
+  author={Tan, Cheng and Wei, Jingxuan and Gao, Zhangyang and Sun, Linzhuang and Li, Siyuan and Yang, Xihong and Li, Stan Z},
+  journal={arXiv preprint arXiv:2311.14109},
+  year={2023}
+}
 ```
